@@ -1,0 +1,6 @@
+services:
+  programming_env:
+    build: .
+    volumes:
+      - ./workspace:/workspace
+    tty: true
